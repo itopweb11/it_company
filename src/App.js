@@ -1,18 +1,10 @@
-import './App.css';
+import './scss/App.css';
+import Header from "./shared/components/header";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          it_company
-        </a>
-      </header>
+        <Header />
     </div>
   );
 }
