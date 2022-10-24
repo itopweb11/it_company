@@ -1,0 +1,52 @@
+.main {
+  width: 100% !important;
+  height: 880px;
+  background-image: url(../../shared/img/markus4.jpg) ;
+  background-position: center center;
+  -webkit-background-size: cover;
+  margin-top: 20px;
+
+  .mainBlocks {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mainContent {
+    margin-top: 200px;
+
+    &__title {
+      font-size: 74px;
+      line-height: 85px;
+      color: black;
+    }
+
+    &__subtitle {
+      margin-top: 10px;
+    }
+
+    &__buttons {
+      margin-top: 20px;
+
+      button {
+        border-color: #c3474a;
+        color: white;
+        font-weight: 500;
+        margin-right: 20px;
+        background-color: #c3474a;
+
+        &:hover {
+          box-shadow: 2px 3px 9px 0px #dd8183;
+        }
+      }
+    }
+  }
+
+  &__form {
+    max-width: 450px;
+    width: 100%;
+    height: 500px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 200px;
+  }
+}
