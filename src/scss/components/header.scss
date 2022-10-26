@@ -28,7 +28,7 @@
     max-width: 200px;
     font-size: 20px;
     font-weight: 500;
-    color: #c3474a;
+    color: black;
     line-height: 19px;
     margin-bottom: 10px;
   }
@@ -48,14 +48,7 @@
   }
 
   &__button {
-    button {
-      background-color: #c3474a;
-
-      &:hover {
-        background-color: #c3474a;
-        box-shadow: 2px 3px 9px 0px #dd8183;
-      }
-    }
+    margin-top: 8px;
   }
 }
 

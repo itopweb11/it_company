@@ -5,7 +5,7 @@ import gear from "../img/gear.png"
 import customer from "../img/customer.png"
 import document from "../img/document.png"
 import telephone from "../img/telephone.png"
-import { Button } from '@material-ui/core';
+import ButtonComp from "./button";
 
 const Header = () => {
 
@@ -33,9 +33,7 @@ const Header = () => {
                         <a href="#">Контакты</a>
                     </div>
                     <div className="header__button">
-                        <Button variant="contained" color="secondary">
-                            Онлайн-заявка
-                        </Button>
+                        <ButtonComp btnDesc={'Онлайн-заявка'} />
                     </div>
                 </div>
             </div>

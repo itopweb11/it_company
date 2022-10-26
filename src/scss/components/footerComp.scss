@@ -1,0 +1,47 @@
+.footerComp {
+  margin-top: -40px;
+
+  &__background {
+    width: 100%!important;
+    height: 800px;
+    background-image: url("../../shared/img/scott.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+    &__desc {
+
+      h1 {
+        font-size: 74px;
+        line-height: 85px;
+      }
+
+      h4 {
+        font-size: 46px;
+        margin-top: 30px;
+      }
+
+      p {
+        font-size: 35px;
+        margin-top: 30px;
+      }
+    }
+
+  }
+
+  &__content {
+
+    &__contacts {
+      width: 100%;
+      min-height: 200px;
+      background-color: #323232;
+    }
+
+    &__menu {
+      background-color: black;
+    }
+  }
+}

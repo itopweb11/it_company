@@ -1,0 +1,54 @@
+.dataBlocks {
+  background-color: #e7e7e7;
+
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+
+    &__block {
+      max-width: 350px;
+      width: 100%;
+      min-height: 300px;
+      border-radius: 7px;
+      background-color: white;
+      margin-top: -40px;
+      margin-bottom: 60px;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      &:hover {
+        cursor: pointer;
+        transition: .5s;
+        box-shadow: 3px 7px 20px 0 #727272;
+      }
+
+      &:hover h3 {
+        color: #c3474a;
+      }
+
+      h3 {
+        font-size: 24px;
+      }
+
+      img {
+        max-width: 64px;
+        width: 100%;
+        min-height: 64px;
+      }
+
+      p {
+        font-weight: 500;
+      }
+
+      span {
+        font-size: 20px;
+        color: #c3474a;
+        font-weight: 500;
+      }
+    }
+  }
+}

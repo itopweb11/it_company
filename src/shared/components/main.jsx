@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '@material-ui/core/Button';
+import ButtonComp from "./button";
 
 const Main = () => {
     return (
@@ -8,21 +8,23 @@ const Main = () => {
                 <div className="mainContent">
                     <h1 className='mainContent__title'>создание и <br/> продвижение <br/> сайтов</h1>
                     <h2 className="mainContent__subtitle">
-                        Комплексный подход к разработке и созданию сайтов для бизнеса,<br/>
-                        ориентированного на высокую конверсию
+                        Комплексный подход к разработке и созданию сайтов для бизнеса,
+                        ориентированного на высокую <br/> конверсию
                     </h2>
                     <div className="mainContent__buttons">
-                        <Button btnDesc={'Подробнее о компании'}/>
-                        <Button variant="outlined" color="primary">
-                            Подробнее о компании
-                        </Button>
-                        <Button variant="outlined" color="primary">
-                            Еще услуги
-                        </Button>
+                        <ButtonComp btnDesc={'Подробнее о компании'}/>
+                        <ButtonComp btnDesc={'Еще услуги'}/>
                     </div>
                 </div>
                 <div className='main__form'>
-                    <p>dkfkldsfjdksl</p>
+                    <p className='mainForm__desc'>
+                        Мы берем на себя все вопросы по функционированию сайта, продлению
+                        доменного имени, работе хостинга, обновлению информации.
+                    </p>
+                    <input type="text"/>
+                    <input type="text"/>
+                    <ButtonComp btnDesc={'Войти'} />
+                    <ButtonComp btnDesc={'Регистрация'} />
                 </div>
             </div>
         </div>

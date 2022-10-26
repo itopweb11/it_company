@@ -1,0 +1,26 @@
+.contentBlock {
+  width: 100% !important;
+  height: 800px;
+  background-image: url(../../shared/img/unsplash.jpg) ;
+  background-position: center center;
+  -webkit-background-size: cover;
+
+  &__desc {
+
+    h2 {
+      font-size: 74px;
+      line-height: 85px;
+      margin-top: 20px;
+      //color: #c3474a;
+    }
+
+    p {
+      font-size: 25px;
+      margin-top: 10px;
+    }
+
+    span {
+      opacity: 0;
+    }
+  }
+}
