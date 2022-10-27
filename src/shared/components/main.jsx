@@ -27,7 +27,7 @@ const Main = () => {
                     </span>
                     <span className='main__form__input'>
                         <span>Пароль:</span>
-                        <input placeholder={'................'} type="text"/>
+                        <input placeholder={'...............'} type="text"/>
                     </span>
                     <ButtonComp btnDesc={'Войти'} />
                     <ButtonComp btnDesc={'Регистрация'} />
