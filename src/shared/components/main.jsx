@@ -21,8 +21,14 @@ const Main = () => {
                         Мы берем на себя все вопросы по функционированию сайта, продлению
                         доменного имени, работе хостинга, обновлению информации.
                     </p>
-                    <input type="text"/>
-                    <input type="text"/>
+                    <span className='main__form__input'>
+                        <span>Телефон:</span>
+                        <input placeholder={'+7(814)-000-00-00'} type="number"/>
+                    </span>
+                    <span className='main__form__input'>
+                        <span>Пароль:</span>
+                        <input placeholder={'................'} type="text"/>
+                    </span>
                     <ButtonComp btnDesc={'Войти'} />
                     <ButtonComp btnDesc={'Регистрация'} />
                 </div>

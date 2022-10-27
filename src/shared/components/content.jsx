@@ -5,7 +5,7 @@ const Content = ({content}) => {
         <div className='content'>
             <div className="container">
                 <p className='content__p'>.</p>
-                <h1 className='content__title'>Преимущества создания и продвижения сайта в <br/>"Consul-IT"</h1>
+                <h1 className='content__title'>Преимущества создания и продвижения сайта в <br/>«Consul-IT»</h1>
                 <div className='content__blocks'>
                     {content.map(elem => {
                         return(

@@ -32,16 +32,139 @@
 
   }
 
-  &__content {
+  &__contacts {
+    width: 100%;
+    min-height: 100px;
+    background-color: #323232;
+    display: flex;
+    align-items: center;
 
-    &__contacts {
-      width: 100%;
-      min-height: 200px;
-      background-color: #323232;
+    &__desc {
+      display: flex;
+      justify-content: space-between;
+
+      &__tel {
+        display: flex;
+
+        div {
+          margin-left: 20px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+
+        img {
+          height: 33px;
+        }
+
+        a {
+          text-decoration: none;
+          font-size: 20px;
+          font-weight: 500;
+          color: #c3474a;
+        }
+
+        p {
+          font-size: 11px;
+          font-weight: 700;
+          color: #7a7a7a;
+        }
+      }
+
+      &__address {
+
+        p {
+          font-size: 20px;
+          font-weight: 500;
+          color: #c3474a;
+        }
+
+        address {
+
+          a {
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 700;
+            color: #7a7a7a;
+
+            &:hover {
+              color: #c3474a;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &__menu {
+    background-color: black;
+
+    &__list {
+      display: flex;
+      justify-content: space-between;
+
+      &__desc {
+        margin: 40px 0 20px 0;
+
+        p {
+          font-size: 22px;
+          font-weight: 500;
+          color: #c3474a;
+          margin-bottom: 20px;
+        }
+
+        li {
+          font-size: 16px;
+          //font-weight: 500;
+          color: white;
+          list-style-type: none;
+          margin-top: 10px;
+          cursor: pointer;
+
+          &:hover {
+            color: #c3474a;
+          }
+        }
+      }
     }
 
-    &__menu {
-      background-color: black;
+    &__info {
+      border-top: 1px solid #7a7a7a;
+
+      &__desc {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+
+        &__logo {
+          height: 25px;
+        }
+
+        p {
+          color: #7a7a7a;
+          cursor: pointer;
+          font-weight: 600;
+          font-size: 14px;
+
+          &:hover {
+            color: #c3474a;
+          }
+        }
+
+        &__icons {
+
+          img {
+            margin-left: 10px;
+            cursor: pointer;
+            border-radius: 50%;
+
+            &:hover {
+              box-shadow: 2px 3px 9px 0 #dd8183;
+            }
+          }
+        }
+      }
     }
   }
 }
