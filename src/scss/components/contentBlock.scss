@@ -1,9 +1,23 @@
 .contentBlock {
   width: 100% !important;
   height: 800px;
-  background-image: url(../../shared/img/unsplash.jpg) ;
+  background-image: url(../../img/fon-block-2.jpg) ;
   background-position: center center;
   -webkit-background-size: cover;
+  position: relative;
+
+  &:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, .6);
+  }
 
   &__desc {
 
@@ -11,12 +25,15 @@
       font-size: 74px;
       line-height: 85px;
       margin-top: 20px;
-      //color: #c3474a;
+      color: #ffffff;
+      position: relative;
     }
 
     p {
       font-size: 25px;
       margin-top: 10px;
+      color: white;
+      position: relative;
     }
 
     span {

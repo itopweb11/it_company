@@ -1,11 +1,12 @@
 import React from 'react';
-import logoBlack from "../img/logoBlack.png"
-import logoWhite from "../img/logoWhite.png"
-import facebook from "../img/facebook.png"
-import google from "../img/google-plus.png"
-import instagram from "../img/instagram.png"
-import whatsapp from "../img/whatsapp.png"
-import twitter from "../img/twitter.png"
+import logoGrey from "../../img/logo-grey.png"
+import logoBlack from "../../img/logo-black.png"
+import  {FacebookSvg} from "../../img/facebook"
+import {InstagramSvg} from "../../img/instagram";
+import {ZenSvg} from "../../img/zen";
+import {VkontakteSvg} from "../../img/vkontakte";
+import {YoutubeSvg} from "../../img/youtube";
+import {TwitterSVG} from "../../img/twitter";
 
 const FooterComp = () => {
     return (
@@ -23,20 +24,28 @@ const FooterComp = () => {
             <div className='footerComp__contacts'>
                 <div className='container footerComp__contacts__desc'>
                     <div className='footerComp__contacts__desc__tel'>
-                        <img src={logoBlack} alt="logoBlack"/>
+                        <img className="logo" src={logoGrey} alt="logoBlack"/>
                         <div>
-                            <a href="tel:+78142332211">+7(814)-233-22-11</a>
+                            <a href="tel:+78142332211">+7(918)-734-74-81</a>
                             <p>МОСКВА (ОТДЕЛ ПРОДАЖ)</p>
                         </div>
                         <div>
-                            <a href="tel:+78142332211">+7(814)-233-22-11</a>
+                            <a href="tel:+78142332211">+7(928)-838-39-92</a>
                             <p>БЕСПЛАТНО ПО РОССИИ</p>
                         </div>
+                    </div>
+                    <div className="footerComp__contacts__desc__inn">
+                        <p>ИНН</p>
+                        <p>7731663951</p>
+                    </div>
+                    <div className="footerComp__contacts__desc__inn">
+                        <p>ОГРН</p>
+                        <p>1117746014924</p>
                     </div>
                     <div className='footerComp__contacts__desc__address'>
                         <p>Москва</p>
                         <address>
-                            <a href="mailto:info@w3docs.com">Люсиновская ул., 36, стр. 1</a>
+                            <a href="mailto:info@w3docs.com">пос.Мосрентген, 14 квартал, влд 28, ст 1</a>
                         </address>
                     </div>
                 </div>
@@ -104,13 +113,14 @@ const FooterComp = () => {
                 </div>
                 <div className='footerComp__menu__info'>
                     <div className='container footerComp__menu__info__desc'>
-                        <img className='footerComp__menu__info__desc__logo' src={logoWhite} alt="logoWhite"/>
+                        <img className='footerComp__menu__info__desc__logo logo' src={logoBlack} alt="logoWhite"/>
                         <div className='footerComp__menu__info__desc__icons'>
-                            <img src={facebook} alt="facebook"/>
-                            <img src={google} alt="google"/>
-                            <img src={instagram} alt="instagram"/>
-                            <img src={whatsapp} alt="whatsapp"/>
-                            <img src={twitter} alt="twitter"/>
+                            <ZenSvg />
+                            <FacebookSvg />
+                            <InstagramSvg />
+                            <VkontakteSvg />
+                            <YoutubeSvg />
+                            <TwitterSVG />
                         </div>
                         <p>Сайт защищен reCAPTCHA и Google. <br/> Конфиденциальность и Условия.</p>
                         <p>Публичная оферта <br/> Политика конфиденциальности</p>

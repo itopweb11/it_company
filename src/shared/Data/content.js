@@ -1,10 +1,10 @@
-import clock from "./../img/clock.png"
-import browser from "./../img/browser.png"
-import calendar from "./../img/calendar.png"
-import notes from "./../img/notes.png"
-import edition from "./../img/edition.png"
-import support from "./../img/support.png"
-import handshake from "./../img/handshake.png"
+import clock from "../../img/clock.png"
+import browser from "../../img/browser.png"
+import calendar from "../../img/calendar.png"
+import notes from "../../img/notes.png"
+import edition from "../../img/edition.png"
+import support from "../../img/support.png"
+import handshake from "../../img/handshake.png"
 
 const content = [
     {

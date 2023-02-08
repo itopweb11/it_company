@@ -1,13 +1,13 @@
-import listing from "../img/listing.png"
-import webSite from "../img/web-site.png"
-import settings from "../img/settings.png"
-import coding from "../img/coding.png"
-import coding1 from "../img/coding1.png"
-import domain from "../img/domain.png"
-import planning from "../img/planning.png"
-import graphics from "../img/graphics.png"
-import development1 from "../img/development1.png"
-import development from "../img/development.png"
+import listing from "../../img/listing.png"
+import webSite from "../../img/webSite.png"
+import settings from "../../img/settings.png"
+import coding from "../../img/coding.png"
+import coding1 from "../../img/coding1.png"
+import domain from "../../img/domain.png"
+import planning from "../../img/planning.png"
+import graphics from "../../img/graphics.png"
+import development1 from "../../img/development1.png"
+import development from "../../img/development.png"
 
 const dataBlocksArr = [
     {

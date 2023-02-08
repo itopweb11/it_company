@@ -1,41 +1,78 @@
 import React from 'react';
-import logo from "../img/logo1.jpg"
-import logoIcon from "../img/logoIcon1.jpg"
-import gear from "../img/gear.png"
-import customer from "../img/customer.png"
-import document from "../img/document.png"
-import telephone from "../img/telephone.png"
+import logo from "../../img/logoza.ru1.png"
+import {CompanySvg} from '../../img/company';
 import ButtonComp from "./button";
+import {ContextSvg} from "../../img/context";
+import {DevelopmentSvg} from "../../img/development";
+import {ServicesSvg} from "../../img/services";
+import {SettingsSvg} from "../../img/settings";
+import {SmmSvg} from "../../img/smm";
+import {SeoSvg} from "../../img/seo";
 
 const Header = () => {
 
     return(
-        <div className="container">
-            <div className="header">
+        <div>
+            <div className="header container">
                 <div className="header__info">
                     <div className='header__logo'>
-                        <img src={logoIcon} alt="logoIcon"/>
-                        <img src={logo} alt="logo"/>
+                        <img className="logo" src={logo} alt="logo"/>
                     </div>
                     <div className='header__desc'>
                         <p>Делаем сайты, которые работают</p>
                     </div>
                 </div>
                 <div className="header__info">
-                    <div className='header__menu'>
-                        <img src={customer} alt="customer"/>
-                        <a href="#">Разработка</a>
-                        <img src={gear} alt="gear"/>
-                        <a href="#">Поддержка</a>
-                        <img src={document} alt="document"/>
-                        <a href="#">О компании</a>
-                        <img src={telephone} alt="telephone"/>
-                        <a href="#">Контакты</a>
-                    </div>
                     <div className="header__button">
                         <ButtonComp btnDesc={'Онлайн-заявка'} />
                     </div>
                 </div>
+            </div>
+            <div className="header__menu_wrapper">
+                <ul className='header__menu container'>
+                    <li>
+                        <a href="#">
+                            <ContextSvg />
+                            <span>Контекст</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <SettingsSvg />
+                            <span>Поддержка</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <SeoSvg />
+                            <span>SEO</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <CompanySvg />
+                            <span>О компании</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <SmmSvg />
+                            <span>SMM</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <ServicesSvg />
+                            <span>Ещё услуги</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <DevelopmentSvg />
+                            <span>Разработка</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     )
