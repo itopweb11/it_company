@@ -11,6 +11,7 @@
 .header {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   margin-top: 20px;
 
@@ -68,7 +69,7 @@
     }
     li {
       min-height: 50px;
-      max-width: 15%;
+      max-width: 14%;
       width: 100%;
       display: flex;
       justify-content: center;
@@ -99,6 +100,7 @@
 
 .logo {
   cursor: pointer;
+  margin-bottom: 10px;
 
   &:hover {
     transition: .5s;

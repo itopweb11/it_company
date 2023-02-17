@@ -3,12 +3,13 @@
 
   &__content {
     display: flex;
+    gap: 15px;
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
 
     &__block {
-      max-width: 350px;
+      max-width: 28%;
       width: 100%;
       min-height: 300px;
       border-radius: 7px;

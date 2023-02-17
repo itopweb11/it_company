@@ -15,11 +15,12 @@
 
   &__blocks {
     display: flex;
+    gap: 15px;
     flex-wrap: wrap;
     justify-content: space-between;
 
     &__block {
-      max-width:550px;
+      max-width: 45%;
       min-height: 200px;
       border: 1px solid white;
       border-radius: 5px;
@@ -33,8 +34,7 @@
 
       &:hover {
         cursor: pointer;
-        -ms-transform: scale(1.2);
-        transform: scale(1.2);
+        box-shadow: 3px 7px 20px 0 #c4464a;
         transition: .5s;
       }
     }

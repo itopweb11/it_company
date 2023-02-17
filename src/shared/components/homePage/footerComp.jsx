@@ -23,16 +23,14 @@ const FooterComp = () => {
             </div>
             <div className='footerComp__contacts'>
                 <div className='container footerComp__contacts__desc'>
-                    <div className='footerComp__contacts__desc__tel'>
-                        <img className="logo" src={logoGrey} alt="logoBlack"/>
-                        <div>
-                            <a href="tel:+78142332211">+7(918)-734-74-81</a>
-                            <p>МОСКВА (ОТДЕЛ ПРОДАЖ)</p>
-                        </div>
-                        <div>
-                            <a href="tel:+78142332211">+7(928)-838-39-92</a>
-                            <p>БЕСПЛАТНО ПО РОССИИ</p>
-                        </div>
+                    <img className="logo" src={logoGrey} alt="logoBlack"/>
+                    <div>
+                        <a href="tel:+78142332211">+7(918)-734-74-81</a>
+                        <p>МОСКВА (ОТДЕЛ ПРОДАЖ)</p>
+                    </div>
+                    <div>
+                        <a href="tel:+78142332211">+7(928)-838-39-92</a>
+                        <p>БЕСПЛАТНО ПО РОССИИ</p>
                     </div>
                     <div className="footerComp__contacts__desc__inn">
                         <p>ИНН</p>
@@ -124,7 +122,7 @@ const FooterComp = () => {
                         </div>
                         <p>Сайт защищен reCAPTCHA и Google. <br/> Конфиденциальность и Условия.</p>
                         <p>Публичная оферта <br/> Политика конфиденциальности</p>
-                        <p>Подпишитесь на исследования и кейсы</p>
+                        <p>Подпишитесь на <br/> исследования и кейсы</p>
                     </div>
 
                 </div>
