@@ -1,12 +1,12 @@
 import React from 'react';
-import logoGrey from "../../img/logo-grey.png"
-import logoBlack from "../../img/logo-black.png"
-import  {FacebookSvg} from "../../img/facebook"
-import {InstagramSvg} from "../../img/instagram";
-import {ZenSvg} from "../../img/zen";
-import {VkontakteSvg} from "../../img/vkontakte";
-import {YoutubeSvg} from "../../img/youtube";
-import {TwitterSVG} from "../../img/twitter";
+import logoGrey from "../../../img/logo-grey.png"
+import logoBlack from "../../../img/logo-black.png"
+import  {FacebookSvg} from "../../../img/facebook"
+import {InstagramSvg} from "../../../img/instagram";
+import {ZenSvg} from "../../../img/zen";
+import {VkontakteSvg} from "../../../img/vkontakte";
+import {YoutubeSvg} from "../../../img/youtube";
+import {TwitterSVG} from "../../../img/twitter";
 
 const FooterComp = () => {
     return (

@@ -1,13 +1,14 @@
 import React from 'react';
-import logo from "../../img/logoza.ru1.png"
-import {CompanySvg} from '../../img/company';
+import logo from "../../../img/logoza.ru1.png"
+import {CompanySvg} from '../../../img/company';
 import ButtonComp from "./button";
-import {ContextSvg} from "../../img/context";
-import {DevelopmentSvg} from "../../img/development";
-import {ServicesSvg} from "../../img/services";
-import {SettingsSvg} from "../../img/settings";
-import {SmmSvg} from "../../img/smm";
-import {SeoSvg} from "../../img/seo";
+import {ContextSvg} from "../../../img/context";
+import {DevelopmentSvg} from "../../../img/development";
+import {ServicesSvg} from "../../../img/services";
+import {SettingsSvg} from "../../../img/settings";
+import {SmmSvg} from "../../../img/smm";
+import {SeoSvg} from "../../../img/seo";
+import TransitionsModal from "./modal";
 
 const Header = () => {
 
@@ -24,7 +25,8 @@ const Header = () => {
                 </div>
                 <div className="header__info">
                     <div className="header__button">
-                        <ButtonComp btnDesc={'Онлайн-заявка'} />
+                        <a href="mailto:itconsulmsk@gmail.com">itconsulmsk@gmail.com</a>
+                        <TransitionsModal />
                     </div>
                 </div>
             </div>
