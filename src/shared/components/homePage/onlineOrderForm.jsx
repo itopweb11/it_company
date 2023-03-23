@@ -30,7 +30,7 @@ const OnlineOrderForm = ({setOpen, setSuccess, success}) => {
                 <span>
                     ВАША ЗАЯВКА УСПЕШНО ОТПРАВЛЕНА. <br/>
                     НАШ МЕНЕДЖЕР ОТДЕЛА ПРОДАЖ СВЯЖЕТСЯ С ВАМИ <br/>
-                    В ТЕЧЕНИЕ 1-ГО РАБОЧЕГО ДНЯС МОМЕНТА ПОЛУЧЕНИЯ ЗАЯВКИ.
+                    В ТЕЧЕНИЕ ОДНОГО РАБОЧЕГО ДНЯ С МОМЕНТА ПОЛУЧЕНИЯ ЗАЯВКИ.
                 </span>
             </div>
             <div className={success ? 'onlineForm__activeForm' : ''}>

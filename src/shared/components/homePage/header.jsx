@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from "../../../img/logoza.ru1.png"
 import {CompanySvg} from '../../../img/company';
-import ButtonComp from "./button";
 import {ContextSvg} from "../../../img/context";
 import {DevelopmentSvg} from "../../../img/development";
 import {ServicesSvg} from "../../../img/services";
