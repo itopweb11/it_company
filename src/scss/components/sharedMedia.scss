@@ -95,11 +95,15 @@
   .header__menu_button {
     margin: 15px 0;
   }
+
+  .header__menu_icon {
+    margin-left: 31px;
+  }
 }
 
 @media screen and (max-width: 456px) {
   .header__desc {
-    max-width: 220px;
+    max-width: 200px!important;
     text-align: center;
   }
 }
