@@ -70,6 +70,10 @@
   .content__blocks__block {
     max-width: 100%;
   }
+
+  .container {
+    max-width: 90%;
+  }
 }
 
 @media screen and (max-width: 430px) {
@@ -187,6 +191,10 @@
     justify-content: center;
   }
 }
+
+/*@media screen and (max-width: 980px) {
+
+}*/
 
 @media screen and (max-width: 1100px) {
   .main .mainContent__title {
