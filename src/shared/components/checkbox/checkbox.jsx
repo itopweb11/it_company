@@ -13,6 +13,8 @@ export const Checkbox = ({ id, label, value, isSelected, name, onChange }) => (
             checked={isSelected === value}
             onChange={onChange}
         />
-        <span>{label}</span>
+        <span>
+            {label}
+        </span>
     </label>
 );
