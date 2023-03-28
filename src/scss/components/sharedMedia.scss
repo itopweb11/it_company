@@ -38,10 +38,13 @@
 
 @media screen and (max-width: 1721px) {
   .footerComp__contacts__desc div {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 
+  .footerComp__contacts__desc div {
+    margin-left: 0;
+  }
 }
 
 @media screen and (max-width: 536px) {
@@ -123,6 +126,10 @@
 }
 
 @media screen and (max-width: 530px) {
+  .footerComp__background {
+    height: 100%;
+  }
+
   .mainContent__buttons button {
     margin-top: 20px;
   }
@@ -137,15 +144,18 @@
 
   .footerComp__background__desc h1 {
     font-size: 30px!important;
+    margin-top: 20px;
+    line-height: 55px;
   }
 
   .footerComp__background__desc h4 {
     font-size: 22px!important;
-    margin-top: 0;
+    margin-top: 15px;
   }
 
   .footerComp__background__desc p {
     font-size: 24px;
+    margin-bottom: 50px;
   }
 }
 
@@ -195,6 +205,14 @@
 @media screen and (max-width: 600px) {
   .footerComp__menu__list {
     flex-direction: column;
+  }
+
+  .footerComp__menu__list__desc {
+    margin: 0px 0 20px 0;
+  }
+
+  .footerComp__menu__list__desc p {
+    margin-bottom: 10px;
   }
 }
 
