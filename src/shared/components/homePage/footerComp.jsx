@@ -23,7 +23,7 @@ const FooterComp = () => {
             </div>
             <div className='footerComp__contacts'>
                 <div className='container footerComp__contacts__desc'>
-                    <img className="logo" src={logoGrey} alt="logoBlack"/>
+                    {/*<img className="logo" src={logoGrey} alt="logoBlack"/>*/}
                     <div>
                         <a href="tel:+78142332211">+7(918)-734-74-81</a>
                         <p>МОСКВА (ОТДЕЛ ПРОДАЖ)</p>

@@ -6,10 +6,10 @@ const Main = () => {
         <div className="main">
             <div className="container mainBlocks">
                 <div className="mainContent">
-                    <h1 className='mainContent__title'>создание и <br/> продвижение <br/> сайтов</h1>
+                    <h1 className='mainContent__title'>создание и  продвижение  сайтов</h1>
                     <h2 className="mainContent__subtitle">
                         Комплексный подход к разработке и созданию сайтов для бизнеса,
-                        ориентированного на высокую <br/> конверсию
+                        ориентированного на высокую конверсию
                     </h2>
                     <div className="mainContent__buttons">
                         <ButtonComp btnDesc={'Подробнее о компании'}/>

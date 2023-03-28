@@ -8,9 +8,9 @@ import {SettingsSvg} from "../../../img/settings";
 import {SmmSvg} from "../../../img/smm";
 import {SeoSvg} from "../../../img/seo";
 import TransitionsModal from "./modal";
+import TemporaryDrawer from "./headerModal";
 
 const Header = () => {
-
     return(
         <div>
             <div className="header container">
@@ -25,11 +25,14 @@ const Header = () => {
                 <div className="header__info">
                     <div className="header__button">
                         <a href="mailto:itconsulmsk@gmail.com">itconsulmsk@gmail.com</a>
-                        <TransitionsModal />
+                        <div className="header__menu_button">
+                            <TransitionsModal />
+                            <TemporaryDrawer />
+                        </div>
                     </div>
                 </div>
             </div>
-            <div className="header__menu_wrapper">
+            <div className="header__menu_wrapper header__menu_delete">
                 <ul className='header__menu container'>
                     <li>
                         <a href="#">
@@ -79,4 +82,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default Header;
