@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from "../../../img/logoza.ru1.png"
+import logo from "../../../img/logoza21.png"
 import {CompanySvg} from '../../../img/company';
 import {ContextSvg} from "../../../img/context";
 import {DevelopmentSvg} from "../../../img/development";
