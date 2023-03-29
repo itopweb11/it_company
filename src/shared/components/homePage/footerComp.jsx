@@ -41,10 +41,16 @@ const FooterComp = () => {
                     <div className='footerComp__contacts__desc__address'>
                         <p>Москва</p>
                         <address>
-                            <a href="mailto:info@w3docs.com">пос.Мосрентген, 14 квартал, влд 28, ст 1</a>
+                            <a href="https://goo.gl/maps/5sLUXt1MgxiJHvQf8">пос.Мосрентген, 14 квартал, влд 28, ст 1</a>
                         </address>
                     </div>
                 </div>
+
+                {/*<iframe
+                    className="footerComp__contacts_map"
+                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d101892.19598532123!2d37.53290318805199!3d55.64515173578889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0L_QvtGBLtCc0L7RgdGA0LXQvdGC0LPQtdC9LCAxNCDQutCy0LDRgNGC0LDQuywg0LLQu9C0IDI4LCDRgdGCIDE!5e0!3m2!1sru!2sru!4v1680073694550!5m2!1sru!2sru"
+                    allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade">
+                </iframe>*/}
             </div>
             <div className='footerComp__menu'>
                 <div className='container footerComp__menu__list'>
